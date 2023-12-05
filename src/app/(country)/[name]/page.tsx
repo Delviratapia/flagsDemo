@@ -26,7 +26,7 @@ const ShowCountry: FC<Props> = ({ params }) => {
 
   return (
     <div className="mt-10 flex w-full justify-center">
-      <div className="flex w-[320px] flex-col gap-16">
+      <div className="flex w-[320px] sm:w-full flex-col gap-16 md:px-10">
         <Link
           className="flex h-8 w-24 cursor-pointer items-center justify-center rounded-sm bg-white text-text-darkest-blue shadow-lg dark:bg-dark-blue dark:text-white"
           href={"/"}
