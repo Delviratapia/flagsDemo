@@ -36,7 +36,7 @@ const ListCountries = () => {
   if (allCountriesQuery.isLoading) return <Spinner />;
 
   return (
-    <div className="mt-8 flex flex-col items-center gap-10">
+    <div className="mt-8 flex flex-col place-items-center gap-10 lg:grid-cols-4 sm:grid sm:grid-cols-2">
       {countries
         ? countries.map((country) => (
             <CardCountry key={country.name.official} country={country} />

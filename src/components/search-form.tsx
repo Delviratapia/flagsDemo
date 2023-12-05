@@ -20,8 +20,8 @@ export const SearchForm = () => {
   };
 
   return (
-    <div className="mt-6 flex w-full flex-col items-center justify-center gap-10 px-4">
-      <div className="flex h-12 w-full items-center gap-3 rounded-md bg-white px-4 shadow-md dark:bg-dark-blue dark:text-white">
+    <div className="mt-6 flex w-full flex-col items-center justify-center sm:justify-between sm:px-24 gap-10 px-4 sm:flex-row">
+      <div className="flex h-12 sm:max-w-[36%] w-full items-center gap-3 rounded-md bg-white px-4 shadow-md dark:bg-dark-blue dark:text-white">
         <FaSearch className="h-4 w-4 text-dark-gray" />
         <input
           type="text"
@@ -32,7 +32,7 @@ export const SearchForm = () => {
           className="h-full w-full text-xs text-dark-gray dark:bg-dark-blue dark:text-white "
         />
       </div>
-      <div className="flex h-12 w-1/2 items-center self-start rounded-md bg-white px-4 shadow-md dark:bg-dark-blue dark:text-white">
+      <div className="flex h-12 w-1/2 sm:max-w-[12%] items-center self-start rounded-md bg-white px-4 shadow-md dark:bg-dark-blue dark:text-white">
         <select
           className="h-full w-full bg-white text-xs text-dark-gray dark:bg-dark-blue dark:text-white"
           name="region"
